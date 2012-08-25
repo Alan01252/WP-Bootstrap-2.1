@@ -15,7 +15,7 @@ Installation
 
 Navigate to wordpress theme directory
 
-    git clone git@github.com:Alan01252/WP-Bootstrap-2.1.git
+    git clone git://github.com/Alan01252/WP-Bootstrap-2.1.git
   
 Activate theme
 
