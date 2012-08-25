@@ -20,23 +20,11 @@ The comments page for Bones
 	
 	<h3 id="comments"><?php comments_number('<span>' . __("No","bonestheme") . '</span> ' . __("Responses","bonestheme") . '', '<span>' . __("One","bonestheme") . '</span> ' . __("Response","bonestheme") . '', '<span>%</span> ' . __("Responses","bonestheme") );?> <?php _e("to","bonestheme"); ?> &#8220;<?php the_title(); ?>&#8221;</h3>
 
-	<nav id="comment-nav">
-		<ul class="clearfix">
-	  		<li><?php previous_comments_link( __("Older comments","bonestheme") ) ?></li>
-	  		<li><?php next_comments_link( __("Newer comments","bonestheme") ) ?></li>
-	 	</ul>
-	</nav>
-	
-	<ol class="commentlist">
+	<ol class="commentlist unstyled">
 		<?php wp_list_comments('type=comment&callback=bones_comments'); ?>
 	</ol>
 	
-	<nav id="comment-nav">
-		<ul class="clearfix">
-	  		<li><?php previous_comments_link( __("Older comments","bonestheme") ) ?></li>
-	  		<li><?php next_comments_link( __("Newer comments","bonestheme") ) ?></li>
-		</ul>
-	</nav>
+
   
 	<?php else : // this is displayed if there are no comments so far ?>
 
