@@ -1,0 +1,35 @@
+/*
+Style.css borrowed from the following theme.
+
+Theme Name: wp-bootstrap2.10
+Theme URI: http://alan.hollis.com
+Description: A clean bootstrap theme based on bootstrap 2.10
+Version: 0.1
+Author: Alan Hollis
+Author URI: http://alanhollis.com
+Tags: white, one-column, two-columns, flexible-width, custom-background, responsive, full-width-template
+License: GNU General Public License v2.0 & Apache License 2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/licenses/LICENSE-2.0
+*/
+
+
+/* micro clearfix: http://nicolasgallagher.com/micro-clearfix-hack/ */
+/* For modern browsers */
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+    zoom:1;
+}
+
+ body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}    
