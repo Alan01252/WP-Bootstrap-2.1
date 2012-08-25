@@ -14,7 +14,6 @@
 							
 							<div class="page-header"><h1 class="single-title" itemprop="headline"><?php the_title(); ?></h1></div>
 							
-							<p class="meta"><?php _e("Posted", "bonestheme"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php the_date(); ?></time> <?php _e("by", "bonestheme"); ?> <?php the_author_posts_link(); ?> <span class="amp">&</span> <?php _e("filed under", "bonestheme"); ?> <?php the_category(', '); ?>.</p>
 						
 						</header> <!-- end article header -->
 					
@@ -35,6 +34,15 @@
 							<a href="<?php echo get_edit_post_link(); ?>" class="btn btn-success edit-post"><i class="icon-pencil icon-white"></i> <?php _e("Edit post","bonestheme"); ?></a>
 							<?php } ?>
 							
+							<blockquote class="pull-right">
+								<p><?php _e("Posted", "bonestheme"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php the_date(); ?></time></p>
+							  <small>
+								  
+								  <cite title="author"> <?php _e("by", "bonestheme"); ?> <?php the_author_posts_link(); ?> </cite>
+								  <span class="amp"> & </span> <?php _e("filed under", "bonestheme"); ?> <?php the_category(', '); ?>
+							  </small>
+							</blockquote>
+
 						</footer> <!-- end article footer -->
 					
 					</article> <!-- end article -->
