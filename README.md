@@ -2,6 +2,8 @@ WP-Bootstrap-2.1
 ================
 
 A very basic wordpress theme based on Twitter Bootstrap 2.1.
+A lot of ideas and a small amount of code has been taken from the rather excellent  http://320press.com/wpbs/ wordpress theme.
+Git hub https://github.com/320press/wordpress-bootstrap
 
 Features
 --------
